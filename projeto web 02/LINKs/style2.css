@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
-
+    font-family: 'Viga', sans-serif;
+    background-color:rgba(238, 243, 238, 0.014) ;
 }
-
-h1 {
+h1{
+background: rgb(0, 159, 1);
+color: rgb(214, 224, 231);
+text-align: center;
+font-family: 'Anton', sans-serif;
+font-size: 3.5em;
+text-shadow:30cm ;
     font-family: 'Oswald', sans-serif;
     background: rgba(229, 230, 229, 0);
     color: rgb(1, 7, 12);
@@ -18,14 +22,15 @@ h1 {
 }
 
 h2 {
+    font-size: 3em;
     color: black;
-    font-size: 2em;
     text-align:center;
+    color: aliceblue;
    color: green;
     font-family: 'Oswald', sans-serif;
 }
 
-section {
+section{
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -33,6 +38,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background:rgb(0, 159, 1);
     background: rgba(191, 194, 191, 0.014);
     overflow: hidden;
 }
@@ -46,34 +52,45 @@ section {
     background: green;
     clip-path: circle(30% at bottom right);
 }
-      
-.img1 img{
-    position:relative; 
-    width: 400px;
-    left:40%;
+.conteiner img {
+    width: 300px;
+    position: relative;
+    left: 38%;          
 }
-.container img {
-    width: 150px;
+.img1 img{
+    position: relative;
+    left: 38%; 
+    width: 600px;
+
 }
 
 p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(27, 27, 25);
-    text-align: center;
+ font-family: 'Anton', sans-serif;
+ font-size: 2.5em;
+ text-align: center;
+}
+img{
+    width:800px ;
+    position:relative;
+    left: 37%;
+}
+.inside {
+    list-style-position: inside;
+  }
+  .outside {
+    list-style-position: outside;
+  }
+  li{
+    font-family: 'Anton', sans-serif;
     font: italic 20px Verdana, Sans-serif;
-}
-li{
     color:rgb(38, 173, 38);
-    font-weight: 500;
+    font-weight: 500em;
     text-decoration: none;
-    font-size: 20px;
-    margin-left: 100px;  
+    font-size: 30px;
+    margin-left: 100px;
+    
 }
-.img2 img{
-    position: relative;
-    width: 300px;
-    left: 40%;
-}
+
 
 
 
